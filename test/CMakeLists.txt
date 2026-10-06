@@ -69,6 +69,7 @@ set(APP_SOURCES
    dynamic_smoother.cpp
    signal_slope.cpp
    pitch.cpp
+   hz_audio_to_midi.cpp
 )
 
 foreach(testsourcefile ${APP_SOURCES})

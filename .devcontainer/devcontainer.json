@@ -1,5 +1,5 @@
 {
   "name": "C++",
   "image": "mcr.microsoft.com/devcontainers/cpp:1-ubuntu-24.04",
-  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libasound2-dev"
+  "postCreateCommand": "sudo apt-get update && sudo apt-get install -y libasound2-dev git-lfs"
 }
