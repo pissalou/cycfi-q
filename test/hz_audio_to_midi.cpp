@@ -19,7 +19,7 @@ struct recording_midi
 
 TEST_CASE("riff_0_5.wav produces expected MIDI notes and durations")
 {
-   q::wav_reader source{HZ_AUDIO_TO_MIDI_TEST_AUDIO_FILE};
+   q::wav_reader source{"audio_files/riff_0_5.wav"};
    REQUIRE(source);
    REQUIRE(source.num_channels() == 1);
 

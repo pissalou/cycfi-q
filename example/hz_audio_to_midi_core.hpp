@@ -29,7 +29,7 @@ namespace hz_audio_to_midi
    public:
       processor(float sps, Sink& sink)
        : _sink(sink)
-       , _detector(55_Hz, 1000_Hz, sps, -45_dB)
+       , _detector(55_Hz, 1000_Hz, sps, -40_dB)
        , _envelope(100_ms, sps)
        , _threshold(q::lin_float(-55_dB))
       {}
